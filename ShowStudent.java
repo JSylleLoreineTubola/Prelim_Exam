@@ -36,3 +36,33 @@ System.out.println("The grade point average is "
 System.out.println(" ");
 }
 }
+public void setIDnumber()
+{
+lastStudentID += 1;
+IDnumber = lastStudentID;
+}
+ 
+public int getIDnumber()
+{
+return IDnumber;
+}
+ 
+public void setHours(int number)
+{
+hours = number;
+}
+ 
+public int getHours()
+{
+return hours;
+}
+ 
+public void setPoints(int number)
+{
+points = number;
+}
+ 
+public int getPoints()
+{
+return points;
+}
